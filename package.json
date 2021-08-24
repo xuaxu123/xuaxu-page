@@ -1,0 +1,35 @@
+{
+  "name": "zce-pages",
+  "version": "0.1.0",
+  "description": "static web app workflg",
+  "keywords": [
+    "zce-pages",
+    "zce"
+  ],
+  "repository": "zce/zce-pages",
+  "license": "MIT",
+  "author": "许朝晖 <you@example.coma1418829253@163.com> (https://github.com/xuaxu)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
